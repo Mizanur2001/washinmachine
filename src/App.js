@@ -1,9 +1,14 @@
 import './App.css';
+import Navbar from './components/Navbar';
+import UpperCategory from './components/UpperCategory';
 
 function App() {
   return (
-    <div>Holla</div>
-  );
+    <>
+      <Navbar />
+      <UpperCategory />
+    </>
+  )
 }
 
 export default App;

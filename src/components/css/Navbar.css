@@ -1,0 +1,47 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 10px 20px #BBC1B9;
+}
+
+.listItem {
+    display: flex;
+}
+
+.nbRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listItem>li {
+    margin: 10px;
+    margin-right: 31px;
+    list-style: none;
+}
+
+.listItem>li>a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cartImg>img {
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.cartImg:hover {
+    cursor: pointer;
+}
+
+.logo>img {
+    height: 80px;
+    width: 80px;
+    border-radius: 500%;
+    margin-top: 3px;
+    margin-left: 5px;
+}
