@@ -1,6 +1,7 @@
 .ManiSection {
     display: flex;
     align-items: center;
+    background-color: #07c2dc26;
 }
 
 .ImageContainer>img {
@@ -54,5 +55,11 @@
     background-color: #FFC93D;
     font-size: 20px;
     font-weight: bold;
-    box-shadow: 0px 4px;
+    box-shadow: 0px 4px 7px;
+}
+
+.stars{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 5px;
 }
