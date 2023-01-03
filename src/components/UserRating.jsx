@@ -61,7 +61,7 @@ const UserRating = () => {
                         <p>4.2/5</p>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ipsam obcaecati at ipsum impedit nesciunt qui aliquid fugit.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ipsam obcaecati at ipsum impedit nesciunt qui aliquid fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </p>
                 </div>
             </div>

@@ -4,6 +4,7 @@ import UpperCategory from './components/UpperCategory';
 import MainSection from './components/MainSection';
 import BenefitsWM from './components/BenefitsWM';
 import UserRating from './components/UserRating';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <MainSection />
       <BenefitsWM />
       <UserRating />
+      <Footer />
     </>
   )
 }

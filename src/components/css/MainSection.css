@@ -41,8 +41,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 60px;
-    margin-left: 40px;
+    margin-top: 28px;
+    margin-left: 81px;
 }
 
 .signinBtn , .signupBtn{
@@ -56,10 +56,4 @@
     font-size: 20px;
     font-weight: bold;
     box-shadow: 0px 4px 7px;
-}
-
-.stars{
-    height: 20px;
-    width: 20px;
-    margin-bottom: 5px;
 }
