@@ -2,6 +2,11 @@ nav {
     display: flex;
     justify-content: space-between;
     box-shadow: 1px 10px 20px #BBC1B9;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: white;
 }
 
 .listItem {
