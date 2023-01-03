@@ -7,7 +7,7 @@ const MainSection = () => {
         <div className='ManiSection'>
             <div className='MainsectionLeft'>
                 <div className='TextContainer'>
-                    <h1>Dotn't Worry!</h1>
+                    <h1>Don't Worry!</h1>
                     <span>We are here for you</span>
                 </div>
                 <button className='priceListBtn'>View Price List</button>

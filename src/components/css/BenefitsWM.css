@@ -1,0 +1,132 @@
+.benefitsWM {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B1F8AB;
+    height: 900px;
+    width: 100%;
+    position: absolute;
+    flex-direction: column;
+}
+
+.benefitsWM>img {
+    height: 325px;
+    width: 350px;
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.firstLine,
+.secondLine,
+.thirdLine,
+.forthLine {
+    position: relative;
+    border-top: 2px solid;
+    width: 90px;
+}
+
+.firstLine {
+    top: 145px;
+    left: 200px;
+}
+
+.secondLine {
+    top: 322px;
+    left: 200px;
+}
+
+.thirdLine {
+    top: 141px;
+    right: 190px
+}
+
+.forthLine {
+    top: 327px;
+    right: 185px;
+}
+
+.fifthLine,
+.sixthLine {
+    border-left: 2px solid;
+    height: 60px;
+}
+
+.sevLine,
+.eighLine,
+.nineLine,
+.tenLine {
+    position: relative;
+    border-top: 2px solid;
+    width: 150px;
+}
+
+
+.sevLine {
+    bottom: 92px;
+    left: 309px;
+    transform: rotate(30deg);
+}
+
+.eighLine {
+    bottom: 273px;
+    left: 309px;
+    transform: rotate(30deg);
+}
+
+.nineLine {
+    bottom: 162px;
+    right: 294px;
+    transform: rotate(30deg);
+}
+
+.tenLine {
+    bottom: 352px;
+    right: 301px;
+    transform: rotate(30deg);
+}
+
+.benefitWMCont {
+    background-color: #FFC93D;
+    width: 200px;
+    max-height: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 10px 20px #000;
+}
+
+.benefitWMContRapp {
+    display: flex;
+}
+
+.cont1 {
+    position: relative;
+    top: 65px;
+    right: 257px;
+}
+
+.cont3 {
+    position: relative;
+    top: 362px;
+    left: 278px;
+}
+
+.cont4 {
+    position: relative;
+    top: -66px;
+    left: 676px;
+}
+
+.cont6 {
+    position: relative;
+    top: -356px;
+    right: 653px;
+}
