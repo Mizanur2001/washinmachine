@@ -1,11 +1,12 @@
 import React from 'react'
 import './css/Footer.css'
+import logo from '../assets/logo.png'
 
 const Footer = () => {
     return (
         <div className='footer'>
             <div className='logoInfo'>
-                <img src="https://www.logodesign.net/images/home-page-logo-03.png" alt="logo" />
+                <img src={logo} alt="logo" />
                 <span>Washinmachine.com</span>
                 <div className="footer-icons">
                     <a href="https://www.facebook.com/profile.php?id=100015583307535" rel="noopener"><i className="fa-brands fa-facebook"></i></a>

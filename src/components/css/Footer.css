@@ -15,9 +15,10 @@
 }
 
 .logoInfo>img {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
+    height: 72px;
+    width: 134px;
+    margin-bottom: 5px;
+    /* border-radius: 50%; */
 }
 
 

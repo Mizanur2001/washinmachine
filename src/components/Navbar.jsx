@@ -1,12 +1,13 @@
 import React from 'react'
 import cartImg from '../assets/carts.png'
 import './css/Navbar.css'
+import logo from '../assets/logo.png'
 
 const Navbar = () => {
     return (
         <nav>
             <div className='logo'>
-                <img src="https://www.logodesign.net/images/home-page-logo-03.png" alt="Logo" />
+                <img src={logo} alt="Logo" />
             </div>
             <div className='nbRight'>
                 <div className='divListItem'>
