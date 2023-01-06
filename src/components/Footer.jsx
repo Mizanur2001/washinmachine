@@ -9,10 +9,10 @@ const Footer = () => {
                 <img src={logo} alt="logo" />
                 <span>Washinmachine.com</span>
                 <div className="footer-icons">
-                    <a href="https://www.facebook.com/profile.php?id=100015583307535" rel="noopener"><i className="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/jameslev2001/" rel="noopener"><i className="fa-brands fa-instagram"></i></a>
-                    <a href="https://twitter.com/Mizanur35358853" rel="noopener"><i className="fa-brands fa-twitter"></i></a>
-                    <a href="https://github.com/Mizanur2001" rel="noopener"><i className="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100015583307535" target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/jameslev2001/" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/Mizanur35358853" target="_blank" rel="noreferrer"><i className="fa-brands fa-twitter"></i></a>
+                    <a href="https://github.com/Mizanur2001" target="_blank" rel="noreferrer"><i className="fa-brands fa-github"></i></a>
                 </div>
             </div>
             <div className='footerCategory'>
