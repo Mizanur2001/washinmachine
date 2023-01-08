@@ -6,6 +6,7 @@
     height: 900px;
     width: 100%;
     flex-direction: column;
+    display: none;
 }
 
 .benefitsWM>img {

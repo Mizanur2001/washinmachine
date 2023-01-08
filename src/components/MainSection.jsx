@@ -11,6 +11,10 @@ const MainSection = () => {
                     <span>We are here for you</span>
                 </div>
                 <button className='priceListBtn'><a href='/'>View Price List</a></button>
+                <div className='authBtnMainsectionLeft'>
+                    <button className='signinBtn'>Sign In</button>
+                    <button className='signupBtn'>Sign Up</button>
+                </div>
             </div>
             <div className='ImageContainer'>
                 <img src={mainContImg} alt="MianContainerImage" />
