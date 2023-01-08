@@ -7,7 +7,6 @@ nav {
     left: 0;
     z-index: 100;
     background-color: white;
-    display: none;
 }
 
 .listItem {
@@ -50,4 +49,81 @@ nav {
     margin-top: 5px;
     margin-left: 20px;
     margin-bottom: 15px;
+}
+
+/*Use extra code from here for hambarger*/
+
+.phoneNavMenu {
+    display: none;
+    background: transparent;
+}
+
+.closeIcon,
+.menuIcon {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: 1rem;
+    display: none;
+}
+
+/* Responsive Part */
+@media(max-width:700px) {
+    .phoneNavMenu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menuIcon {
+        display: block;
+    }
+
+    .listItem {
+        display: none;
+    }
+
+    .nav {
+        position: relative;
+    }
+
+    .cartImg {
+        left: 167px;
+        position: relative;
+    }
+
+}
+
+@media(max-width:615px) {
+    .cartImg {
+        left: 130px;
+    }
+}
+
+@media(max-width:530px) {
+    .cartImg {
+        left: 100px;
+    }
+}
+
+
+@media(max-width:470px) {
+    .cartImg {
+        left: 70px;
+    }
+
+    .cartImg>img {
+        height: 42px;
+        width: 42px;
+    }
+
+    .logo>img {
+        height: 62px;
+        width: 104px;
+    }
+}
+
+@media(max-width:400px) {
+    .cartImg {
+        left: 50px;
+    }
 }
