@@ -35,8 +35,8 @@ const Footer = () => {
                     <p>7811925012</p>
                 </div>
                 <div className="flex items-center">
-                    <a href="mailto:developer20032001@gmail.com"><i className="fa-solid fa-envelope"></i></a>
-                    <p>support@Washinmachine.com</p>
+                    <a href="mailto:support@washinmachine.com"><i className="fa-solid fa-envelope"></i></a>
+                    <p>support@washinmachine.com</p>
                 </div>
             </div>
             <div className='aboutUs'>
