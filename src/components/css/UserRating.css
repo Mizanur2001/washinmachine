@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 350px;
+    height: 400px;
     /* display: none; */
 }
 
@@ -55,8 +55,16 @@
 
 /*Mobile*/
 
-@media(max-width:900px) {
-    .userrating {
-        display: none;
+@media(max-width:1250px) {
+    .userrating{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .cardimg>img {
+        height: 50px;
+        width: 50px;
     }
 }

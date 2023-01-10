@@ -131,7 +131,7 @@
 }
 
 /*Mobile */
-@media(max-width:900px) {
+@media(max-width:1300px) {
     .benefitsWM{
         display: none;
     }
