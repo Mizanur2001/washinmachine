@@ -1,6 +1,6 @@
 .uppercategory {
     background-color: #BBFF34;
-    margin-top: 30px;
+    margin-top: 15px;
     height: 150px;
     display: flex;
     align-items: center;
@@ -39,6 +39,6 @@
     }
 
     .uppercategory {
-        height: 125px;
+        height: 85px;
     }
 }
