@@ -110,32 +110,34 @@
 
 /*Mobile*/
 @media(max-width:1180px) {
-    .footer{
+    .footer {
         height: auto;
         padding-top: 40px;
         padding-bottom: 30px;
     }
 }
 
-@media(max-width:1200px){
-    .footer{
+@media(max-width:1200px) {
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 30px;
         height: auto;
         flex-direction: column;
     }
 
-    .footer-icons{
+    .footer-icons {
         margin-bottom: 40px;
     }
 
-    .addPhoneLoc{
+    .addPhoneLoc {
         margin-bottom: 40px;
     }
 
     .footerCategory {
         margin-bottom: 60px;
-    }   
+    }
 
-    .aboutUs{
+    .aboutUs {
         width: 90%;
     }
 
