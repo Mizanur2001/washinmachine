@@ -130,9 +130,176 @@
     right: 653px;
 }
 
+
 /*Mobile */
-@media(max-width:1300px) {
-    .benefitsWM{
-        display: none;
+@media(max-width:1200px) {
+    .benefitsWM {
+        height: 1600px;
+    }
+
+    .cont1 {
+        top: -190px;
+        right: -160px;
+    }
+
+    .cont6 {
+        top: -993px;
+        right: 270px;
+    }
+
+    .cont3 {
+        top: 796px;
+        left: -170px;
+    }
+
+    .cont4 {
+        top: 378px;
+        left: 253px;
+    }
+
+    .firstLine,
+    .secondLine,
+    .thirdLine,
+    .forthLine {
+        width: 10px;
+    }
+
+    .thirdLine {
+        top: 109px;
+        right: 135px;
+    }
+
+    .tenLine {
+        width: 300px;
+        bottom: 495px;
+        right: 141px;
+        transform: rotate(90deg);
+    }
+
+    .forthLine {
+        top: 128px;
+        right: 150px;
+        width: 20px;
+    }
+
+    .nineLine {
+        bottom: 573px;
+        right: 161px;
+        transform: rotate(90deg);
+        width: 500px;
+    }
+
+    .secondLine {
+        top: 360px;
+        left: 110px;
+    }
+
+    .sevLine {
+        bottom: -48px;
+        left: 114px;
+        transform: rotate(90deg);
+        width: 278px;
+    }
+
+    .firstLine {
+        top: 332px;
+        left: 137px;
+    }
+
+    .eighLine {
+        width: 500px;
+        bottom: -127px;
+        left: 141px;
+        transform: rotate(90deg);
+    }
+
+}
+
+@media(max-width:600px) {
+    .benefitWMContRapp {
+        flex-direction: column;
+    }
+
+    .cont1 {
+        top: -80px;
+        right: 68px;
+    }
+
+    .cont2 {
+        position: relative;
+        top: 143px;
+    }
+
+    .cont3 {
+        top: 795px;
+        left: 25px;
+    }
+
+    .cont4 {
+        top: 376px;
+        left: 56px;
+    }
+
+    .cont5 {
+        position: relative;
+        top: -148px;
+    }
+
+    .cont6 {
+        top: -1094px;
+        right: 43px;
+    }
+}
+
+@media(max-width:500px) {
+    .benefitsWM>img {
+        height: 221px;
+        width: 236px;
+    }
+
+    .cont6 {
+        top: -989px;
+    }
+
+    .cont3 {
+        top: 690px;
+    }
+
+    .thirdLine {
+        top: 96px;
+        right: 114px;
+        width: 55px;
+    }
+
+    .tenLine {
+        width: 280px;
+        bottom: 395px;
+        right: 141px;
+        transform: rotate(90deg);
+    }
+
+    .forthLine {
+        top: 110px;
+        right: 129px;
+        width: 64px;
+    }
+
+    .nineLine {
+        bottom: 478px;
+        right: 161px;
+        transform: rotate(90deg);
+        width: 483px;
+    }
+
+    .secondLine {
+        top: 256px;
+        left: 102px;
+        width: 25px;
+    }
+
+    .firstLine {
+        top: 228px;
+        left: 122px;
+        width: 40px;
     }
 }
