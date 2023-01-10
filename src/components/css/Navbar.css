@@ -51,79 +51,75 @@ nav {
     margin-bottom: 15px;
 }
 
-/*Use extra code from here for hambarger*/
+/*hamburger*/
 
-.phoneNavMenu {
-    display: none;
-    background: transparent;
-}
-
-.closeIcon,
-.menuIcon {
-    height: 2.5rem;
-    width: 2.5rem;
-    margin-right: 1rem;
+.hamburger {
     display: none;
 }
 
-/* Responsive Part */
-@media(max-width:700px) {
-    .phoneNavMenu {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .menuIcon {
-        display: block;
-    }
-
-    .listItem {
-        display: none;
-    }
-
-    .nav {
-        position: relative;
-    }
-
-    .cartImg {
-        left: 167px;
-        position: relative;
-    }
-
+.mobile .hamburger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    cursor: pointer;
+    margin-right: 15px;
+    z-index: 999;
 }
 
-@media(max-width:615px) {
-    .cartImg {
-        left: 130px;
-    }
+.mobile .hamburger span {
+    background: black;
+    width: 28px;
+    height: 2px;
+    margin-bottom: 8px;
 }
 
-@media(max-width:530px) {
-    .cartImg {
-        left: 100px;
-    }
+.hamburger,
+.logo {
+    z-index: 9999;
 }
 
+.mobile ul.listItem {
+    background: -webkit-linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s ease-in-out;
+    align-items: center;
+    justify-content: center;
+}
 
-@media(max-width:470px) {
-    .cartImg {
-        left: 70px;
-    }
+.mobile ul.listItem li {
+    padding: 10px;
+}
+
+.mobile ul.listItem.open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.mobile .hamburger span {
+    transform-origin: left;
+    transition: all .3s ease-in-out;
+}
+
+/* Responsive*/
+
+@media(max-width:800px) {
 
     .cartImg>img {
-        height: 42px;
-        width: 42px;
-    }
-
-    .logo>img {
-        height: 62px;
-        width: 104px;
-    }
-}
-
-@media(max-width:400px) {
-    .cartImg {
-        left: 50px;
+        position: absolute;
+        right: 55px;
+        top: 24px;
+        height: 45px;
+        width: 45px;
     }
 }
