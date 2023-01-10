@@ -6,7 +6,6 @@
     height: 900px;
     width: 100%;
     flex-direction: column;
-    display: none;
 }
 
 .benefitsWM>img {
@@ -129,4 +128,11 @@
     position: relative;
     top: -356px;
     right: 653px;
+}
+
+/*Mobile */
+@media(max-width:900px) {
+    .benefitsWM{
+        display: none;
+    }
 }

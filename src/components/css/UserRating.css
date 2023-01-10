@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-around;
     height: 350px;
-    display: none;
+    /* display: none; */
 }
 
 .card {
@@ -51,4 +51,12 @@
     height: 20px;
     width: 20px;
     margin-bottom: 10px;
+}
+
+/*Mobile*/
+
+@media(max-width:900px) {
+    .userrating {
+        display: none;
+    }
 }

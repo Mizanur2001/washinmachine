@@ -51,73 +51,71 @@ nav {
     margin-bottom: 15px;
 }
 
-/*hamburger*/
+/*hamburger for mobile application*/
 
 .hamburger {
     display: none;
 }
 
-.mobile .hamburger {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0;
-    cursor: pointer;
-    margin-right: 15px;
-    z-index: 999;
-}
+@media(max-width:799px) {
 
-.mobile .hamburger span {
-    background: black;
-    width: 28px;
-    height: 2px;
-    margin-bottom: 8px;
-}
+    .mobile .hamburger {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+        cursor: pointer;
+        margin-right: 15px;
+        z-index: 999;
+    }
 
-.hamburger,
-.logo {
-    z-index: 9999;
-}
+    .mobile .hamburger span {
+        background: black;
+        width: 28px;
+        height: 2px;
+        margin-bottom: 8px;
+    }
 
-.mobile ul.listItem {
-    background: -webkit-linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    opacity: 0;
-    pointer-events: none;
-    transition: all .3s ease-in-out;
-    align-items: center;
-    justify-content: center;
-}
+    .hamburger,
+    .logo {
+        z-index: 9999;
+    }
 
-.mobile ul.listItem li {
-    padding: 10px;
-}
+    .mobile ul.listItem {
+        background: -webkit-linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+        background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        opacity: 0;
+        pointer-events: none;
+        transition: all .3s ease-in-out;
+        align-items: center;
+        justify-content: center;
+    }
 
-.mobile ul.listItem.open {
-    opacity: 1;
-    pointer-events: auto;
-}
+    .mobile ul.listItem li {
+        padding: 10px;
+    }
 
-.mobile .hamburger span {
-    transform-origin: left;
-    transition: all .3s ease-in-out;
-}
+    .mobile ul.listItem.open {
+        opacity: 1;
+        pointer-events: auto;
+    }
 
-/* Responsive*/
+    .mobile .hamburger span {
+        transform-origin: left;
+        transition: all .3s ease-in-out;
+    }
 
-@media(max-width:800px) {
-
-    .cartImg>img {
+    .mobile .cartImg {
         position: absolute;
-        right: 55px;
+        right: 90px;
         top: 24px;
         height: 45px;
         width: 45px;

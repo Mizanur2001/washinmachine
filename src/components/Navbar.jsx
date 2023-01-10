@@ -4,20 +4,6 @@ import './css/Navbar.css'
 import logo from '../assets/logo.png'
 
 const Navbar = () => {
-    window.addEventListener('resize', function () {
-        addRequiredClass();
-    })
-
-    function addRequiredClass() {
-        const nav = document.querySelector('nav')
-        if (window.innerWidth < 800) {
-            nav.classList.add('mobile')
-        } else {
-            nav.classList.remove('mobile')
-        }
-    }
-
-    window.onload = addRequiredClass
 
     let isActive = false;
 
@@ -42,7 +28,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className=''>
+            <nav className='mobile'>
                 <div className='logo'>
                     <img src={logo} alt="Logo" />
                 </div>
