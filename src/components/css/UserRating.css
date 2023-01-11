@@ -56,7 +56,7 @@
 /*Mobile*/
 
 @media(max-width:1250px) {
-    .userrating{
+    .userrating {
         margin-top: 30px;
         margin-bottom: 30px;
         height: auto;
@@ -66,5 +66,9 @@
     .cardimg>img {
         height: 50px;
         width: 50px;
+    }
+
+    .cardInfo {
+        max-height: 112px;
     }
 }
