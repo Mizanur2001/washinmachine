@@ -12,16 +12,14 @@ const MainSection = () => {
                 </div>
                 <button className='priceListBtn'><a href='/'>View Price List</a></button>
                 <div className='authBtnMainsectionLeft'>
-                    <button className='signinBtn'>Sign In</button>
-                    <button className='signupBtn'>Sign Up</button>
+                    <button className='signinBtn'>Order Now</button>
                 </div>
             </div>
             <div className='ImageContainer'>
                 <img src={mainContImg} alt="MianContainerImage" />
             </div>
             <div className='authBtn'>
-                <button className='signinBtn'>Sign In</button>
-                <button className='signupBtn'>Sign Up</button>
+                <button className='signupBtn'>Order Now</button>
             </div>
         </div>
     )
