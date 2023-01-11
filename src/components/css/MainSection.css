@@ -120,12 +120,16 @@
 }
 
 /*Phone Responsive*/
-@media (max-width:1400px) {
+@media (max-width:1425px) {
 
     .signinBtn,
     .signupBtn {
         padding: 25px 34px;
         font-size: 14px;
+    }
+
+    .authBtn{
+        margin-left: 80px;
     }
 
     .ImageContainer>img {
@@ -134,7 +138,7 @@
     }
 }
 
-@media(max-width:1266px) {
+@media(max-width:1295px) {
     .TextContainer>h1 {
         font-size: 30px;
     }
@@ -142,6 +146,12 @@
     .priceListBtn {
         padding: 15px 20px;
         font-size: 17px;
+    }
+}
+
+@media(max-width:1200px) {
+    .authBtn{
+        margin-left: 40px;
     }
 }
 
