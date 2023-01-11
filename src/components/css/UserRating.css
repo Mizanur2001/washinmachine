@@ -69,6 +69,7 @@
     }
 
     .cardInfo {
-        max-height: 112px;
+        max-height: 400px;
+        transition: 2s;
     }
 }
