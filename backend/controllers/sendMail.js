@@ -23,10 +23,10 @@ const sendMail = () => {
 
             transpoter.sendMail(mailOption, (err, info) => {
                 if (err) {
-                    res.send(err)
+                    res.status(400).send(err)
                 }
                 else {
-                    res.send("mail Sent Successfully")
+                    res.status(200).send("mail Sent Successfully")
                 }
             })
         }

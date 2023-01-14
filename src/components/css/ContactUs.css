@@ -178,3 +178,13 @@ input::-webkit-inner-spin-button {
         width: 320px;
     }
 }
+
+.errMsg{
+    color: red;
+    font-weight: bold;
+}
+
+.succMsg{
+    color: rgb(17, 193, 17);
+    font-weight: bold;
+}
