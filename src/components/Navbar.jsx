@@ -36,9 +36,9 @@ const Navbar = () => {
                 <div className='nbRight'>
                     <div className='divListItem'>
                         <ul className='listItem'>
-                            <li> <Link to="/">Home</Link></li>
-                            <li> <Link to="/">About Us</Link></li>
-                            <li> <Link to="/contactus">Contact Us</Link></li>
+                            <li> <Link to="/" onClick={funcToggle}>Home</Link></li>
+                            <li> <Link to="/" onClick={funcToggle}>About Us</Link></li>
+                            <li> <Link to="/contactus" onClick={funcToggle}>Contact Us</Link></li>
                         </ul>
                     </div>
                     <div className='cartImg'>
