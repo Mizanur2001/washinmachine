@@ -2,6 +2,7 @@ import React from 'react'
 import cartImg from '../assets/carts.png'
 import './css/Navbar.css'
 import logo from '../assets/logo.png'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -35,9 +36,9 @@ const Navbar = () => {
                 <div className='nbRight'>
                     <div className='divListItem'>
                         <ul className='listItem'>
-                            <li> <a href="/">Home</a></li>
-                            <li> <a href="/">About Us</a></li>
-                            <li> <a href="/">Contact Us</a></li>
+                            <li> <Link to="/">Home</Link></li>
+                            <li> <Link to="/">About Us</Link></li>
+                            <li> <Link to="/contactus">Contact Us</Link></li>
                         </ul>
                     </div>
                     <div className='cartImg'>
