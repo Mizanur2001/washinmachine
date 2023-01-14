@@ -1,0 +1,119 @@
+.contactUsMainContainer {
+    height: 100vh;
+    width: 100%;
+    color: black;
+}
+
+.contactUsMainContainer::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('../../assets/contactUsBG.jpg') no-repeat center center/cover;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.headingContainer {
+    padding-top: 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-top: 40px; */
+}
+
+.Icons {
+    color: white;
+    background: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.location {
+    margin-left: 142px;
+}
+
+.phone p {
+    margin-left: 20px;
+    font-weight: bold;
+
+}
+
+.call {
+    margin-left: -132px;
+}
+
+.formContainerRapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.formContainerRapper form {
+    background-color: white;
+    height: 420px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius:20px ;
+}
+
+.formContainerRapper form input,
+textarea {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    outline: none;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.tag{
+    color: rgb(163, 107, 4);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.submitBtn {
+    padding: 12px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+    background-color: #ffc93d;
+    box-shadow: 0 4px 7px;
+    cursor: pointer;
+}
+
+.InputIconRapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mr18{
+    margin-right: 18px;
+}
