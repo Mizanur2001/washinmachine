@@ -39,7 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 
@@ -72,7 +72,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border-radius:20px ;
+    border-radius: 20px;
 }
 
 .formContainerRapper form input,
@@ -86,7 +86,7 @@ textarea {
     padding: 15px;
 }
 
-.tag{
+.tag {
     color: rgb(163, 107, 4);
 }
 
@@ -108,12 +108,73 @@ input::-webkit-inner-spin-button {
     cursor: pointer;
 }
 
-.InputIconRapper{
+.InputIconRapper {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.mr18{
+.mr18 {
     margin-right: 18px;
+}
+
+@media(max-width:1050px) {
+    .formContainerRapper {
+        flex-direction: column;
+    }
+
+    .contactUsInfo {
+        margin-bottom: 50px;
+    }
+
+    .contactUsMainContainer {
+        height: 1000px;
+    }
+
+    .contactUsMainContainer::before {
+        height: 1000px;
+    }
+
+    span.material-symbols-outlined.Icons.email {
+        margin-left: 0px;
+    }
+}
+
+@media(max-width:610px) {
+    .phone p {
+        font-size: 10px;
+    }
+
+    .location {
+        margin-left: 38px;
+    }
+
+    span.material-symbols-outlined.Icons.email {
+        margin-left: -44px;
+    }
+}
+
+@media(max-width:450px) {
+
+    .formContainerRapper form input,
+    textarea {
+        font-size: 15px;
+        padding: 11px;
+        margin-top: 50px;
+    }
+
+    .formContainerRapper form {
+        width: 350px;
+        height: 500px;
+    }
+
+    .formContainerRapper textarea{
+        padding-bottom: 35px;
+    }
+}
+
+@media(max-width:360px){
+    .formContainerRapper form {
+        width: 320px;
+    }
 }

@@ -6,8 +6,6 @@ const ContactUs = () => {
         <div className='contactUsMainContainer'>
             <div className='headingContainer'>
                 <h2>Contact Us</h2>
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, ipsa eum sequi eos saepe repellendus.</span>
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
             </div>
             <div className="formContainerRapper">
                 <div className='contactUsInfo'>
