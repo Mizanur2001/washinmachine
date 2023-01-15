@@ -7,7 +7,9 @@ const app = express()
 env.config()
 const port = process.env.PORT
 app.use(express.json())
-app.use(corse({}))
+app.use(corse({
+    origin: '*'
+}))
 
 
 
