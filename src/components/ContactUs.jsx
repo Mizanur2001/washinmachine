@@ -25,7 +25,7 @@ const ContactUs = () => {
             setErrMsg({ status: true, msg: "Invalid Phone " });
         }
         else {
-            axios.post('http://0.0.0.0:5000/sendmail', { name: msgInfo.name, email: msgInfo.email, phone: msgInfo.phone, msg: msgInfo.msg }).then(responce => {
+            axios.post('/api/sendmail', { name: msgInfo.name, email: msgInfo.email, phone: msgInfo.phone, msg: msgInfo.msg }).then(responce => {
                 setMsgInfo({
                     name: "", phone: "", email: "", msg: ""
                 });
