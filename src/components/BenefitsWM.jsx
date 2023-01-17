@@ -7,13 +7,14 @@ const BenefitsWM = () => {
         <div className='benefitsWM'>
             <div className='benefitWMContRapp'>
                 <div className='benefitWMCont cont1'>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi omnis maxime debitis illo pariatur porro nisi</p>
+                    <p>Delivery within 4 to 5 days . you can also use <b>EXPRESS</b> service for fastest delivery</p>
                 </div>
                 <div className='benefitWMCont cont2'>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi omnis maxime debitis illo pariatur porro nisi</p>
+                    <p>We use warm and cold <b> drinkable water </b> as per requirement</p>
                 </div>
                 <div className='benefitWMCont cont3'>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi omnis maxime debitis illo pariatur porro nisi</p>
+                    <p>We work in few steps to give you  <b> better experience</b></p>
+
                 </div>
             </div>
             <div className='firstLine'></div>
@@ -29,13 +30,13 @@ const BenefitsWM = () => {
             <div className='tenLine'></div>
             <div className='benefitWMContRapp'>
                 <div className='benefitWMCont cont4'>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi omnis maxime debitis illo pariatur porro nisi</p>
+                    <p>No need to go outside we pick up and delivered <b> door to door</b></p>
                 </div>
                 <div className='benefitWMCont cont5'>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi omnis maxime debitis illo pariatur porro nisi</p>
+                    <p>You can chose Pick up date in <b> one click</b></p>
                 </div>
                 <div className='benefitWMCont cont6'>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi omnis maxime debitis illo pariatur porro nisi</p>
+                    <p>In <b> laundry wash </b> and <b> soft  wash  </b> we do not take any extra charges for <b> steam iron </b> and  <b> packaging</b></p>
                 </div>
             </div>
         </div>
