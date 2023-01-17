@@ -224,17 +224,17 @@
     }
 
     .cont1 {
-        top: -80px;
+        top: -160px;
         right: 68px;
     }
 
     .cont2 {
         position: relative;
-        top: 143px;
+        top: 107px;
     }
 
     .cont3 {
-        top: 795px;
+        top: 749px;
         left: 25px;
     }
 
@@ -245,11 +245,11 @@
 
     .cont5 {
         position: relative;
-        top: -148px;
+        top: -132px;
     }
 
     .cont6 {
-        top: -1094px;
+        top: -1001px;
         right: 43px;
     }
 }
@@ -261,20 +261,20 @@
     }
 
     .cont6 {
-        top: -964px;
+        top: -892px;
     }
 
     .cont1 {
-        top: -105px;
+        top: -159px;
         right: 68px;
     }
 
     .cont2 {
-        top: 130px;
+        top: 106px;
     }
 
     .cont3 {
-        top: 690px;
+        top: 648px;
     }
 
     .thirdLine {
