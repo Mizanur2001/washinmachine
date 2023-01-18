@@ -1,4 +1,6 @@
-.stepsOfWMContainer img{
+.stepsOfWMContainer img {
+    margin-top: 92px;
+    margin-bottom: 80px;
     width: 100%;
     object-fit: cover;
 }
