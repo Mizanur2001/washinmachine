@@ -20,6 +20,7 @@
 
 .aboutUsContainer .heroSection {
     position: absolute;
+    border-radius: 8px;
     top: 170px;
     left: 230px;
     background: #fff;
