@@ -10,13 +10,12 @@ const Footer = () => {
                 <span>Washinmachine.com</span>
                 <div className="footer-icons">
                     <a href="https://www.facebook.com/profile.php?id=100015583307535" target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/jameslev2001/" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/washinmachine23/" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a>
                     <a href="https://twitter.com/Mizanur35358853" target="_blank" rel="noreferrer"><i className="fa-brands fa-twitter"></i></a>
-                    <a href="https://github.com/Mizanur2001" target="_blank" rel="noreferrer"><i className="fa-brands fa-github"></i></a>
                 </div>
             </div>
             <div className='footerCategory'>
-                <h3>Categoryes</h3>
+                <h3>Categories</h3>
                 <ul>
                     <li>Men</li>
                     <li>Women</li>
@@ -41,7 +40,7 @@ const Footer = () => {
             </div>
             <div className='aboutUs'>
                 <p className='abutUsHeading'>About Us</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis corporis quia consectetur officiis rerum velit impedit ad quis saepe sint, voluptate maiores illum autem cumque veniam. Explicabo eius sequi hic? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos placeat iste sit! Nesciunt odit placeat cupiditate, harum rerum laborum perspiciatis quo eius vel qui ex sit earum non repellat voluptate.</p>
+                <p>Welcome to our Washinmachine.  We offer professional laundry service, including washing, dry cleaning, ironing, folding of clothes and linens. Our experienced team is dedicated to delivering high-quality results and excellent customer service. Our goal is to provide fast and efficient service while ensuring the highest quality results. Contact us today to schedule your appointment!</p>
                 <div className="flex copyRightCont">
                     <p className="copyRightText">WashINMachine  ©  2023</p>
                     <p className="copyRightText"><a href="/"> Privacy </a></p>
