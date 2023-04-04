@@ -3,6 +3,7 @@ import mainContImg from '../assets/mainContainerImg.png'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './css/MainSection.css'
+import { Link } from 'react-router-dom';
 
 const MainSection = () => {
     const funcOrder = () => {
@@ -18,7 +19,7 @@ const MainSection = () => {
                     <h1>Don't Worry!</h1>
                     <span>We are here for you</span>
                 </div>
-                <button className='priceListBtn'><a href='/price' target='_blank'>View Price List</a></button>
+                <button className='priceListBtn'><Link to='/price'>View Price List</Link></button>
                 <div className='authBtnMainsectionLeft'>
                     <button className='signinBtn' onClick={funcOrder}>Order Now</button>
                 </div>
