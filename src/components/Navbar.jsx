@@ -31,7 +31,7 @@ const Navbar = () => {
         <>
             <nav className='mobile'>
                 <div className='logo'>
-                    <img src={logo} alt="Logo" />
+                    <Link to="/"> <img src={logo} alt="Logo" /></Link>
                 </div>
                 <div className='nbRight'>
                     <div className='divListItem'>
