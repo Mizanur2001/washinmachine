@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const MainSection = () => {
     const funcOrder = () => {
-        toast('This Website is Under Maintenance. You can Order Via WatsApp or Phone Call Our Contact Number is 7811925012', {
+        toast('This Website is Under Maintenance. You can Order Via WhatsApp or Phone Call Our Contact Number is 7811925012', {
             autoClose: 10000,
         });
     }
