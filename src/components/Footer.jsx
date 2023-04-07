@@ -9,7 +9,7 @@ const Footer = () => {
                 <img src={logo} alt="logo" />
                 <span>Washinmachine.com</span>
                 <div className="footer-icons">
-                    <a href="https://www.facebook.com/profile.php?id=100015583307535" target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100091436719500" target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook"></i></a>
                     <a href="https://www.instagram.com/washinmachine23/" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a>
                     <a href="https://twitter.com/Mizanur35358853" target="_blank" rel="noreferrer"><i className="fa-brands fa-twitter"></i></a>
                 </div>

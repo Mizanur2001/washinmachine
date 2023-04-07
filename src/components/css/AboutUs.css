@@ -1,5 +1,9 @@
+:root {
+    --height: 1200px;
+}
+
 .aboutUsContainer {
-    height: 700px;
+    height: var(--height);
 }
 
 .backGroundRapper {
@@ -7,28 +11,42 @@
 }
 
 .aboutUsContainer .backGroundRapper .leftBg {
-    height: 700px;
+    height: var(--height);
     width: 30%;
     background: #B1F8AB;
     box-shadow: 2px 0px 10px gray;
+    z-index: -2;
 }
 
 .aboutUsContainer .backGroundRapper .rightBg {
-    height: 700px;
+    height: var(--height);
     width: 70%;
+}
+
+.aboutUsContainer .heroSection .textSection .infowrapper h3 {
+    margin-top: 30px;
+}
+
+.aboutUsContainer .heroSection .textSection .infowrapper .end {
+    margin-top: 50px;
+}
+
+.mrt-20 {
+    margin-top: 20px;
 }
 
 .aboutUsContainer .heroSection {
     position: absolute;
     border-radius: 8px;
     top: 170px;
-    left: 230px;
+    left: 150px;
     background: #fff;
     box-shadow: 4px 4px 10px grey;
-    height: 70%;
-    width: 70%;
+    padding: 30px 0;
+    width: 80%;
     display: flex;
     align-items: center;
+    z-index: -1;
     justify-content: center;
 }
 
@@ -37,15 +55,35 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-left: 40px;
+    padding: 0 40px;
     line-height: 25px;
+}
+
+.aboutUsContainer .heroSection .textSection ::before {
+    content: "";
+    background: url("../../assets/aboutUsBg.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    width: 80%;
+    height: 80%;
+    z-index: -1;
+    opacity: 0.01;
 }
 
 @media(max-width:1225px) {
     .aboutUsContainer .heroSection img {
         height: 305px;
     }
+
+    .aboutUsContainer .heroSection .textSection ::before {
+        top: 0px;
+        right: 0px;
+        width: 100%;
+        height: 100%;
+    }
 }
+
 
 @media(max-width:1000px) {
     .aboutUsContainer .heroSection {
@@ -54,10 +92,25 @@
     }
 }
 
+@media(max-width:870px) {
+    .aboutUsContainer {
+        height: 1500px;
+    }
+
+    .aboutUsContainer .backGroundRapper .leftBg {
+        height: 1500px;
+    }
+
+    .aboutUsContainer .backGroundRapper .rightBg {
+        height: 1500px;
+    }
+}
+
 @media(max-width:800px) {
     .aboutUsContainer .heroSection .textSection {
         padding-left: 20px;
     }
+
     .aboutUsContainer .heroSection {
         width: 90%;
         left: 40px;
@@ -78,6 +131,20 @@
     }
 }
 
+@media(max-width:563px) {
+    .aboutUsContainer {
+        height: 1700px;
+    }
+
+    .aboutUsContainer .backGroundRapper .leftBg {
+        height: 1700px;
+    }
+
+    .aboutUsContainer .backGroundRapper .rightBg {
+        height: 1700px;
+    }
+}
+
 @media(max-width:540px) {
     .aboutUsContainer .heroSection {
         left: 20px;
@@ -88,8 +155,30 @@
     }
 }
 
-@media(max-width:400px){
-    .aboutUsContainer .heroSection img {
-        height: 220px;
+@media(max-width:470px) {
+    .aboutUsContainer {
+        height: 2000px;
+    }
+
+    .aboutUsContainer .backGroundRapper .leftBg {
+        height: 2000px;
+    }
+
+    .aboutUsContainer .backGroundRapper .rightBg {
+        height: 2000px;
+    }
+}
+
+@media(max-width:380px) {
+    .aboutUsContainer {
+        height: 2200px;
+    }
+
+    .aboutUsContainer .backGroundRapper .leftBg {
+        height: 2200px;
+    }
+
+    .aboutUsContainer .backGroundRapper .rightBg {
+        height: 2200px;
     }
 }
